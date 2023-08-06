@@ -1,0 +1,12 @@
+print("Enter the Name of Source File: ")
+sou=input()
+print("Enter the Name of Target File: ")
+target=input()
+fp= open(sou, "r")
+texts = fp.readlines()
+fp.close()
+f=open(target, "w")
+for sou in texts:
+    f.write(sou)
+f.close()
+print("\nFile Copied Successfully!")

@@ -1,0 +1,14 @@
+dict={1:"Tamil",2:"English",3:"Urdu",4:"Telugu",5:"Malayalam"};
+dict1={6:"Hindi"}
+print(dict)
+print(len(dict))
+print(dict.keys())
+print(dict.values())
+print(dict.pop(3))
+print(dict)
+print(dict.items())
+print(dict.popitem())
+print(dict)
+print(dict.update(dict1))
+print(dict)
+print(dict1)
